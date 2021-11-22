@@ -1,0 +1,34 @@
+{
+  "name": "webhooker",
+  "version": "1.0.0",
+  "description": "a webhook handler to any server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-mostafa/webhooker.git"
+  },
+  "keywords": [
+    "webhook",
+    "server",
+    "express",
+    "github"
+  ],
+  "author": {
+    "name": "Islam Mostafa",
+    "email": "islam.mostafa.fahmey@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-mostafa/webhooker/issues"
+  },
+  "homepage": "https://github.com/i-mostafa/webhooker#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "joi": "^17.4.2"
+  }
+}

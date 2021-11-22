@@ -1,0 +1,15 @@
+{
+  "port": 6061,
+  "secret": "dsakfjl;sdkfjlkdsfjmncx,mvn.,vmnaskdjhfjowieruklfkjsdfkn,vnasdsadasadd",
+  "tasks": [
+    {
+      "branches": ["main"],
+      "allowedUsers": ["i-mostafa", "islam.mostafa.fahmey@gmail.com"],
+      "actions": ["node --version", "echo i", "echo c", "tests/test.sh"]
+    },
+    {
+      "branches": ["main"],
+      "actions": ["node --version", "echo i", "echo c", "tests/asd asd.sh"]
+    }
+  ]
+}
